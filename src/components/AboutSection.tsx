@@ -47,12 +47,18 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
+    <section id="about" className=" text-white max-w-full md:pl-40 h-screen flex flex-col justify-center border border-white bg-[#121212]">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-1.5 xl:py-50 xl:px-40">
-        <Image src="/assets/about.png" alt="about" width={500} height={500} className="rounded-3xl" />
+        <Image
+          src="/assets/about.png"
+          alt="about"
+          width={500}
+          height={500}
+          className="rounded-3xl"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-2xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className=" text-justify text-base lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
             ipsa laudantium optio in nostrum error quaerat ad quidem beatae
             voluptatem eveniet iste eaque inventore, libero vel neque esse

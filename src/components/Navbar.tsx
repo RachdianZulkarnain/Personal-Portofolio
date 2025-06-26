@@ -8,23 +8,21 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState<boolean>(false);
 
   return (
-    <nav className="container mx-auto fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 ">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+    <nav className="mx-auto fixed z-10 top-4 left-1/2 -translate-x-1/2  flex items-center px-2 rounded-full bg-black/50 backdrop-blur-xs border border-zinc-900 ">
+      <div className="flex px-2 py-2">
         <Link
           href={"/"}
-          className="w-[40px] h-[40px] "
-        
+          className="w-[30px] h-[30px] relative right-2 top-0.9 "
         >
-          <img src="/assets/logo R.png" alt="" />
+          <img src="/assets/logo R1.png" alt="" />
         </Link>
-        
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 text-gray-500 hover:text-white"
             >
-              <AlignJustify className="h-5 w-5"  />
+              <AlignJustify className="h-5 w-5" />
             </button>
           ) : (
             <button
@@ -45,7 +43,15 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-             <li>
+            <li>
+              <Link
+                href={"#skills"}
+                className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
               <Link
                 href={"#project"}
                 className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
@@ -55,10 +61,26 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                href={"#experience"}
+                className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+              >
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link
                 href={"#testimoni"}
                 className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
               >
                 Testimonial
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={"#contact"}
+                className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+              >
+                Contact
               </Link>
             </li>
           </ul>
