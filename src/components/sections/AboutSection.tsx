@@ -1,7 +1,7 @@
 "use client";
-import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import TabButton from "./TabButton";
+import React, { useState, useTransition } from "react";
+import TabButton from "../TabButton";
 
 interface TabData {
   title: string;
@@ -67,17 +67,6 @@ const TAB_DATA: TabData[] = [
       </ul>
     ),
   },
-  {
-    title: "📜 Experience",
-    id: "experience",
-    content: (
-      <ul className="list-disc pl-5 space-y-2 text-base">
-        <li>Company A - Frontend Developer</li>
-        <li>Company B - Backend Developer</li>
-        <li>Company C - Full Stack Developer</li>
-      </ul>
-    ),
-  },
 ];
 
 const AboutSection = () => {
@@ -93,7 +82,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className=" text-white max-w-7xl mx-auto px-4 md:px-8 py-16 bg-[#121212]"
+      className=" text-white max-w-7xl mx-auto px-4 md:px-8 py-16"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <Image
@@ -104,10 +93,10 @@ const AboutSection = () => {
           className="rounded-3xl shadow-lg mx-auto"
         />
         <div className="flex flex-col">
-          <h2 className="text-4xl font-bold mb-4 text-center md:px-50 md:text-left">
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 mb-4 text-center md:px-50 md:text-left">
             About Me
           </h2>
-          <p className="text-justify text-base leading-7 mb-6">
+          <p className="text-[#ADB7BE] text-justify subtext text-base leading-7 mb-6">
             I am a graduate of Electrical Engineering who is currently diving
             into Full Stack Web Development through the training program at
             Purwadhika Digital Technology School. My background in electrical

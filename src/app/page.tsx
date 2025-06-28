@@ -1,18 +1,24 @@
 "use client";
-import AboutSection from "@/components/AboutSection";
-import HeroSection from "@/components/HeroSection";
-import Navbar from "@/components/Navbar";
-import ProjectsSection from "@/components/ProjectSection";
+import AboutSection from "@/components/sections/AboutSection";
+import Contact from "@/components/sections/ContactSection";
+import Experiences from "@/components/sections/ExperienceSection";
+import Footer from "@/components/sections/Footerection";
+import HeroSection from "@/components/sections/HeroSection";
+import Navbar from "@/components/sections/NavbarSection";
+import ProjectsSection from "@/components/sections/PortofolioSection";
+import Testimonial from "@/components/sections/TestimonialSection";
 
 export default function Home() {
   return (
-    <main className="w-full bg-[#121212] ">
+    <main className=" bg-[#121212] ">
       <Navbar />
-      <div className="container mx-auto h-screen ">
-        <HeroSection />
-        <AboutSection />
-        <ProjectsSection/>
-      </div>
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+      <Experiences />
+      <Testimonial/>
+      <Contact/>
+      <Footer/>
     </main>
   );
 }

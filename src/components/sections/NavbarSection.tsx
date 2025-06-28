@@ -45,7 +45,8 @@ const Navbar = () => {
               { href: "/", label: "Home" },
               { href: "#about", label: "About" },
               { href: "#portofolio", label: "Portofolio" },
-              { href: "#testimoni", label: "Testimonial" },
+              { href: "#experience", label: "Experience" },
+              { href: "#testimonial", label: "Testimonial" },
               { href: "#contact", label: "Contact" },
             ].map((item, idx) => (
               <li key={idx}>
