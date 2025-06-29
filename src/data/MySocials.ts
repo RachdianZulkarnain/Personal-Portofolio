@@ -14,9 +14,4 @@ export const mySocials = [
     href: "https://www.instagram.com/rachdian_zulkarnain",
     icon: "/assets/socials/instagram.png",
   },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/@microlab_studio",
-    icon: "/assets/socials/YouTube.png",
-  },
 ];

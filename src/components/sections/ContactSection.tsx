@@ -65,6 +65,8 @@ const Contact: React.FC = () => {
     <section
       id="contact"
       className="relative flex flex-col items-center justify-center px-5 py-10 space-y-10  text-neutral-100 md:px-10 md:py-20"
+      data-aos="fade-left"
+      data-aos-delay="100"
     >
       <Particles
         className="absolute inset-0 -z-50"
@@ -85,7 +87,7 @@ const Contact: React.FC = () => {
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label htmlFor="name" className="block text-sm font-semibold">
-              Your Name
+              {/* Your Name */}
             </label>
             <input
               id="name"
@@ -100,14 +102,14 @@ const Contact: React.FC = () => {
           </div>
           <div>
             <label htmlFor="email" className="block text-sm font-semibold">
-              Your Email
+              {/* Your Email */}
             </label>
             <input
               id="email"
               name="email"
               type="email"
               className="w-full px-4 py-2 mt-1 text-sm text-gray-900 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:outline-none"
-              placeholder="Email"
+              placeholder="Your Email"
               value={formData.email}
               onChange={handleChange}
               required
@@ -115,14 +117,14 @@ const Contact: React.FC = () => {
           </div>
           <div>
             <label htmlFor="message" className="block text-sm font-semibold">
-              Message
+              {/* Message */}
             </label>
             <textarea
               id="message"
               name="message"
               rows={4}
               className="w-full px-4 py-2 mt-1 text-sm text-gray-900 bg-gray-100 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:outline-none"
-              placeholder="Let's talk about..."
+              placeholder="Message ..."
               value={formData.message}
               onChange={handleChange}
               required

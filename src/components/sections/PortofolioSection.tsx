@@ -95,11 +95,19 @@ const ProjectsSection: React.FC = () => {
       id="portofolio"
       className="max-w-7xl mx-auto px-4 md:px-8 py-16 text-white"
     >
-      <h2 className="text-center text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12">
+      <h2
+        className="text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12"
+        data-aos="zoom-out"
+        data-aos-delay="100"
+      >
         My Portofolio
       </h2>
       {/* Tag Filters */}
-      <div className="flex justify-center gap-4 mb-8">
+      <div
+        className="flex justify-center gap-4 mb-8"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
         {["All", "Web", "Mobile"].map((category) => (
           <ProjectTag
             key={category}
@@ -113,6 +121,8 @@ const ProjectsSection: React.FC = () => {
       <ul
         ref={ref}
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+        data-aos="fade-up"
+        data-aos-delay="100"
       >
         {filteredProjects.map((project, index) => (
           <motion.li
