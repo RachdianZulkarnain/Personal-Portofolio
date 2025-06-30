@@ -1,5 +1,5 @@
 import React from "react";
-import { mySocials } from "@/data/MySocials";
+import { mySocials } from "@/types/MySocials";
 
 interface Social {
   name: string;
@@ -50,4 +50,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-

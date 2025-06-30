@@ -33,7 +33,7 @@ export const HeroSection = () => {
               />
             </h1>
             <Avatar className="mt-6 w-40 h-40 lg:w-56 lg:h-56 block md:hidden">
-              <AvatarImage src="/assets/portofolio.png" />
+              <AvatarImage src="/assets/portofolio.png" alt="Rachdian" />
               <AvatarFallback>RZ</AvatarFallback>
             </Avatar>
             <p className="text-[#adb7be8c] mt-6 text-sm sm:text-base lg:text-lg leading-relaxed max-w-md">

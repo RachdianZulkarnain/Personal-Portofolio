@@ -1,5 +1,5 @@
 import React from "react";
-import { experiences } from "../../data/Experiences";
+import { experiences } from "../../types/Experiences";
 import { Timeline } from "../TimeLine";
 
 const Experiences: React.FC = () => {

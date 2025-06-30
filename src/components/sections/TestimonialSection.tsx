@@ -3,7 +3,7 @@
 import React from "react";
 import { twMerge } from "tailwind-merge";
 import { Marquee } from "../magicui/marquee";
-import { reviews } from "../../data/Reviews";
+import { reviews } from "../../types/Reviews";
 
 // Define the type for each review item
 interface Review {

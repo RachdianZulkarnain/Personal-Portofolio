@@ -21,6 +21,7 @@ const TAB_DATA: TabData[] = [
           { src: "/assets/TechStack/html.png", alt: "HTML" },
           { src: "/assets/TechStack/css.png", alt: "CSS" },
           { src: "/assets/TechStack/tailwindcss.png", alt: "Tailwind" },
+          { src: "/assets/TechStack/nextjs.png", alt: "Nextjs" },
           { src: "/assets/TechStack/react.png", alt: "React" },
         ].map((tech, index) => (
           <li key={index} className="flex justify-center items-center">
@@ -71,13 +72,13 @@ const TAB_DATA: TabData[] = [
         {[
           { src: "/assets/TechStack/git.png", alt: "Git" },
           { src: "/assets/TechStack/github.png", alt: "Github" },
-          { src: "/assets/TechStack/Arduino.png", alt: "Arduino" },
           { src: "/assets/TechStack/figma.png", alt: "Figma" },
-          { src: "/assets/TechStack/fusion.png", alt: "Fusion360" },
-          { src: "/assets/TechStack/eagle.png", alt: "Eagle" },
-          { src: "/assets/TechStack/sketchup.png", alt: "Sketchup" },
-          { src: "/assets/TechStack/coreldraw.png", alt: "Coreldraw" },
-          { src: "/assets/TechStack/Ai.png", alt: "Ai" },
+          // { src: "/assets/TechStack/Arduino.png", alt: "Arduino" },
+          // { src: "/assets/TechStack/fusion.png", alt: "Fusion360" },
+          // { src: "/assets/TechStack/eagle.png", alt: "Eagle" },
+          // { src: "/assets/TechStack/sketchup.png", alt: "Sketchup" },
+          // { src: "/assets/TechStack/coreldraw.png", alt: "Coreldraw" },
+          // { src: "/assets/TechStack/Ai.png", alt: "Ai" },
         ].map((tech, index) => (
           <li key={index} className="flex justify-center items-center">
             <Image
