@@ -14,7 +14,7 @@ const TAB_DATA: TabData[] = [
     title: "💻 Frontend",
     id: "Frontend",
     content: (
-      <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
+      <ul className="animate-bounce animate-infinite animate-ease-linear grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
         {[
           { src: "/assets/TechStack/typescript.png", alt: "TypeScript" },
           { src: "/assets/TechStack/javascript.png", alt: "JavaScript" },
@@ -43,7 +43,7 @@ const TAB_DATA: TabData[] = [
     title: "⚙️ Backend",
     id: "Backend",
     content: (
-      <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
+      <ul className="animate-bounce animate-infinite animate-ease-linear grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
         {[
           { src: "/assets/TechStack/nodejs.png", alt: "Node.js" },
           { src: "/assets/TechStack/postgresql.png", alt: "Postgresql" },
@@ -68,7 +68,7 @@ const TAB_DATA: TabData[] = [
     title: "🛠️ Tools",
     id: "tools",
     content: (
-      <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
+      <ul className="animate-bounce animate-infinite animate-ease-linear grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
         {[
           { src: "/assets/TechStack/git.png", alt: "Git" },
           { src: "/assets/TechStack/github.png", alt: "Github" },
@@ -125,8 +125,12 @@ const AboutSection = () => {
           data-aos="zoom-in"
           data-aos-achor-placement="top-center"
         />
-        <div className="flex flex-col" data-aos="fade-left" data-aos-delay="100">
-          <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 mb-3 text-center md:text-center">
+        <div
+          className="flex flex-col"
+          data-aos="fade-left"
+          data-aos-delay="100"
+        >
+          <h2 className="animate-pulse text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 mb-3 text-center md:text-center">
             About Me
           </h2>
           <p className="text-[#adb7be] text-justify text-base leading-7 mb-4">
@@ -138,7 +142,7 @@ const AboutSection = () => {
             is a strategic step to become a more versatile and adaptive
             technology professional.
           </p>
-          <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 mb-4 text-center md:text-center">
+          <h3 className="animate-pulse text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 mb-4 text-center md:text-center">
             Tech Stack
           </h3>
           <div className="flex justify-center md:justify-start space-x-4 mb-8">

@@ -18,17 +18,17 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Showcase your work and skills.",
-    image: "/projects/1.png",
+    title: "Website Personal-Portofolio",
+    description: "Nextjs - Typescript - Tailwind CSS - React",
+    image: "/assets/Mockup1.webp",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RachdianZulkarnain/Personal-Portofolio",
+    previewUrl: "https://rachdian.vercel.app/",
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
-    description: "A creative portfolio for photographers.",
+    title: "Website Company - Profile",
+    description: "Typescript - React - Nextjs - Tailwind CSS  ",
     image: "/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -96,7 +96,7 @@ const ProjectsSection: React.FC = () => {
       className="max-w-7xl mx-auto px-4 md:px-8 py-16 text-white"
     >
       <h2
-        className="text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12"
+        className="animate-pulse text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12"
         data-aos="zoom-out"
         data-aos-delay="100"
       >

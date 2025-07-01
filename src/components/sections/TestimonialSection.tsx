@@ -36,7 +36,7 @@ const ReviewCard: React.FC<Review> = ({ img, name, username, body }) => {
           <p className="text-xs font-medium text-white/40">{username}</p>
         </div>
       </div>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
+      <blockquote className="mt-3 text-sm">{body}</blockquote>
     </figure>
   );
 };
@@ -53,7 +53,7 @@ const Testimonial: React.FC = () => {
       data-aos="fade-right"
       data-aos-delay="100"
     >
-      <h2 className="text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12">
+      <h2 className="animate-pulse text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12">
         Testimonials
       </h2>
       <div className="relative flex flex-col items-center justify-center w-full mt-12 overflow-hidden">

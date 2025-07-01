@@ -40,7 +40,10 @@ export const HeroSection = () => {
               I am passionate about blending technology and creativity to create
               impactful solutions. Let’s work together to bring ideas to life!
             </p>
-            <button className="mt-6 px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+            <button
+              id="contact"
+              className="mt-6 px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
+            >
               Contact Me
             </button>
           </div>

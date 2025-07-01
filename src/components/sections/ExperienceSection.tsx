@@ -10,7 +10,7 @@ const Experiences: React.FC = () => {
       data-aos="fade-down"
       data-aos-delay="100"
     >
-      <h2 className="text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 text-3xl font-bold mb-2">
+      <h2 className="animate-pulse text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 text-3xl font-bold mb-2">
         Professional Experiences
       </h2>
       <Timeline data={experiences} />
