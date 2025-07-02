@@ -65,8 +65,8 @@ const Contact: React.FC = () => {
     <section
       id="contact"
       className="relative flex flex-col items-center justify-center px-5 py-10 space-y-10  text-neutral-100 md:px-10 md:py-20"
-      data-aos="fade-left"
-      data-aos-delay="100"
+      // data-aos="fade-left"
+      // data-aos-delay="100"
     >
       <Particles
         className="absolute inset-0 -z-50"

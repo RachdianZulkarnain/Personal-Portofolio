@@ -14,7 +14,7 @@ const TAB_DATA: TabData[] = [
     title: "💻 Frontend",
     id: "Frontend",
     content: (
-      <ul className="animate-bounce animate-infinite animate-ease-linear grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
+      <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
         {[
           { src: "/assets/TechStack/typescript.png", alt: "TypeScript" },
           { src: "/assets/TechStack/javascript.png", alt: "JavaScript" },
@@ -43,7 +43,7 @@ const TAB_DATA: TabData[] = [
     title: "⚙️ Backend",
     id: "Backend",
     content: (
-      <ul className="animate-bounce animate-infinite animate-ease-linear grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
+      <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
         {[
           { src: "/assets/TechStack/nodejs.png", alt: "Node.js" },
           { src: "/assets/TechStack/postgresql.png", alt: "Postgresql" },
@@ -68,7 +68,7 @@ const TAB_DATA: TabData[] = [
     title: "🛠️ Tools",
     id: "tools",
     content: (
-      <ul className="animate-bounce animate-infinite animate-ease-linear grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
+      <ul className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-4 justify-center items-center">
         {[
           { src: "/assets/TechStack/git.png", alt: "Git" },
           { src: "/assets/TechStack/github.png", alt: "Github" },

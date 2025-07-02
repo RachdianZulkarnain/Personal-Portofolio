@@ -93,7 +93,7 @@ const ProjectsSection: React.FC = () => {
   return (
     <section
       id="portofolio"
-      className="max-w-7xl mx-auto px-4 md:px-8 py-16 text-white"
+      className="max-w-7xl mx-auto px-4 md:px-8 py-16 text-white overflow-hidden"
     >
       <h2
         className="animate-pulse text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12"

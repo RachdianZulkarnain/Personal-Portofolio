@@ -2,7 +2,7 @@ export const experiences = [
   {
     title: "Product Engineer",
     job: "PT. Epson Indonesia",
-    date: "2019 - 2022",
+    date: "2019 - 2021",
     contents: [
       "• Designing and implementing production processes for new products in accordance with Epson's quality standards.",
       "• Optimizing product designs for manufacturing efficiency, cost reduction, and performance improvement.",

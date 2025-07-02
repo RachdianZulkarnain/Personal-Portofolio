@@ -41,10 +41,9 @@ export const HeroSection = () => {
               impactful solutions. Let’s work together to bring ideas to life!
             </p>
             <button
-              id="contact"
               className="mt-6 px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
             >
-              Contact Me
+              Download CV
             </button>
           </div>
 
@@ -55,7 +54,7 @@ export const HeroSection = () => {
             className="col-span-5 flex justify-center md:justify-end items-center"
           >
             <Avatar className="w-40 h-40 lg:w-75 lg:h-75 hidden md:block">
-              <AvatarImage src="/assets/portofolio.png" />
+              <AvatarImage src="/assets/portofolio.png" alt="image" />
               <AvatarFallback>RZ</AvatarFallback>
             </Avatar>
           </div>

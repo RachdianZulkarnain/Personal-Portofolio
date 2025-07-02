@@ -50,8 +50,6 @@ const Testimonial: React.FC = () => {
     <div
       id="testimonial"
       className="items-start mt-20 md:mt-20 c-space"
-      data-aos="fade-right"
-      data-aos-delay="100"
     >
       <h2 className="animate-pulse text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12">
         Testimonials
