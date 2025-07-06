@@ -18,7 +18,7 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "Website Personal-Portofolio",
+    title: "Website Personal - Portofolio",
     description: "Nextjs - Typescript - Tailwind CSS - React",
     image: "/assets/Mockup1.webp",
     tag: ["All", "Web"],
@@ -29,46 +29,10 @@ const projectsData: Project[] = [
     id: 2,
     title: "Website Company - Profile",
     description: "Typescript - React - Nextjs - Tailwind CSS  ",
-    image: "/projects/2.png",
+    image: "/assets/mouckup4.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "A modern online store solution.",
-    image: "/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "An app for seamless food delivery.",
-    image: "/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations.",
-    image: "/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "A roadmap for full-stack developers.",
-    image: "/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RachdianZulkarnain/Company-Profile",
+    previewUrl: "https://microlab-studio.vercel.app/",
   },
 ];
 
@@ -108,7 +72,7 @@ const ProjectsSection: React.FC = () => {
         data-aos="zoom-in"
         data-aos-delay="100"
       >
-        {["All", "Web", "Mobile"].map((category) => (
+        {["All", "Web"].map((category) => (
           <ProjectTag
             key={category}
             onClick={() => handleTagChange(category)}
