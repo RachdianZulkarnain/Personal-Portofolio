@@ -20,7 +20,7 @@ export const HeroSection = () => {
               </span>
               <br />
               <TypeAnimation
-                className="mt-4 text-3xl sm:text-xl lg:text-5xl"
+                className="mt-4 text-3xl sm:text-xl lg:text-5xl text-white"
                 sequence={[
                   "Electrical Engineer",
                   1500,
@@ -36,13 +36,11 @@ export const HeroSection = () => {
               <AvatarImage src="/assets/portofolio.png" alt="Rachdian" />
               <AvatarFallback>RZ</AvatarFallback>
             </Avatar>
-            <p className="text-[#adb7be8c] mt-6 text-sm sm:text-base lg:text-lg leading-relaxed max-w-md">
+            <p className="text-gray-300 mt-6 text-sm sm:text-base lg:text-lg leading-relaxed max-w-md">
               I am passionate about blending technology and creativity to create
               impactful solutions. Let’s work together to bring ideas to life!
             </p>
-            <button
-              className="mt-6 px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
-            >
+            <button className="mt-6 px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
               Download CV
             </button>
           </div>

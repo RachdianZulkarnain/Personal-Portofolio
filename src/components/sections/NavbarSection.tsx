@@ -21,6 +21,8 @@ const Navbar = () => {
             <button
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 text-gray-500 hover:text-white"
+              aria-label="Open menu"
+              title="Open menu"
             >
               <AlignJustify className="h-5 w-5" />
             </button>
@@ -28,6 +30,8 @@ const Navbar = () => {
             <button
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-3 py-2 text-gray-500 hover:text-white"
+              aria-label="Close menu"
+              title="Close menu"
             >
               <X className="h-5 w-5" />
             </button>
