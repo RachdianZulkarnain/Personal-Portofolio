@@ -1,5 +1,5 @@
-import React, { useState, ChangeEvent, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
+import React, { ChangeEvent, FormEvent, useState } from "react";
 import Alert from "../Alert";
 import { Particles } from "../Particles";
 
@@ -65,8 +65,6 @@ const Contact: React.FC = () => {
     <section
       id="contact"
       className="relative flex flex-col items-center justify-center px-5 py-10 space-y-10  text-neutral-100 md:px-10 md:py-20"
-      // data-aos="fade-left"
-      // data-aos-delay="100"
     >
       <Particles
         className="absolute inset-0 -z-50"
@@ -86,9 +84,10 @@ const Contact: React.FC = () => {
         </div>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label htmlFor="name" className="block text-sm font-semibold">
-              {/* Your Name */}
-            </label>
+            <label
+              htmlFor="name"
+              className="block text-sm font-semibold"
+            ></label>
             <input
               id="name"
               name="name"
@@ -101,9 +100,10 @@ const Contact: React.FC = () => {
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-sm font-semibold">
-              {/* Your Email */}
-            </label>
+            <label
+              htmlFor="email"
+              className="block text-sm font-semibold"
+            ></label>
             <input
               id="email"
               name="email"
@@ -116,9 +116,10 @@ const Contact: React.FC = () => {
             />
           </div>
           <div>
-            <label htmlFor="message" className="block text-sm font-semibold">
-              {/* Message */}
-            </label>
+            <label
+              htmlFor="message"
+              className="block text-sm font-semibold"
+            ></label>
             <textarea
               id="message"
               name="message"

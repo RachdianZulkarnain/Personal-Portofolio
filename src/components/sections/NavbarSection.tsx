@@ -1,8 +1,7 @@
 "use client";
-import React, { useState } from "react";
+import { AlignJustify, X } from "lucide-react";
 import Link from "next/link";
-import { AlignJustify } from "lucide-react";
-import { X } from "lucide-react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState<boolean>(false);
@@ -10,12 +9,6 @@ const Navbar = () => {
   return (
     <nav className="mx-auto fixed z-10 top-1 md:top-6 md:left-1/2 md:-translate-x-1/2 flex items-center px-2 rounded-2xl md:rounded-full bg-black/50 backdrop-blur-xs border border-zinc-900">
       <div className="flex md:px-2 md:py-2">
-        {/* Logo */}
-        {/* <Link href={"/"} className="w-[30px] h-[30px] relative right-2 top-0.9">
-          <img src="/assets/logo R1.png" alt="Logo" />
-        </Link> */}
-
-        {/* Mobile Menu */}
         <div className=" block md:hidden">
           {!navbarOpen ? (
             <button
@@ -37,8 +30,6 @@ const Navbar = () => {
             </button>
           )}
         </div>
-
-        {/* Desktop Menu */}
         <div
           className={`menu ${
             navbarOpen ? "block" : "hidden"
@@ -50,7 +41,6 @@ const Navbar = () => {
               { href: "#about", label: "About" },
               { href: "#portofolio", label: "Portofolio" },
               { href: "#experience", label: "Experience" },
-              { href: "#testimonial", label: "Testimonial" },
               { href: "#contact", label: "Contact" },
             ].map((item, idx) => (
               <li key={idx}>

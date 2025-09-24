@@ -66,7 +66,6 @@ const ProjectsSection: React.FC = () => {
       >
         My Portofolio
       </h2>
-      {/* Tag Filters */}
       <div
         className="flex justify-center gap-4 mb-8"
         data-aos="zoom-in"
@@ -81,7 +80,6 @@ const ProjectsSection: React.FC = () => {
           />
         ))}
       </div>
-      {/* Project Cards */}
       <ul
         ref={ref}
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"

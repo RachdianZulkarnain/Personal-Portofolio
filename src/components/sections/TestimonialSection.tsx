@@ -5,7 +5,6 @@ import { twMerge } from "tailwind-merge";
 import { Marquee } from "../magicui/marquee";
 import { reviews } from "../../types/Reviews";
 
-// Define the type for each review item
 interface Review {
   img: string;
   name: string;
@@ -13,7 +12,6 @@ interface Review {
   body: string;
 }
 
-// ReviewCard component
 const ReviewCard: React.FC<Review> = ({ img, name, username, body }) => {
   return (
     <figure
@@ -41,7 +39,6 @@ const ReviewCard: React.FC<Review> = ({ img, name, username, body }) => {
   );
 };
 
-// Testimonial component
 const Testimonial: React.FC = () => {
   const firstRow = reviews.slice(0, Math.ceil(reviews.length / 2));
   const secondRow = reviews.slice(Math.ceil(reviews.length / 2));

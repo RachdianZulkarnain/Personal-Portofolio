@@ -8,7 +8,6 @@ export const HeroSection = () => {
     <AuroraBackground className="bg-[#121212]">
       <main className="container mx-auto max-w-7xl px-6 md:px-16 h-screen flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-          {/* Left Content */}
           <div
             data-aos="fade-up"
             className="col-span-7 flex flex-col items-center md:items-start text-center md:text-left"
@@ -16,7 +15,7 @@ export const HeroSection = () => {
             <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
               Hello 👋, <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
-                I'm Rachdian Zulkarnain
+                I'm Rachdian Muhammad Adha
               </span>
               <br />
               <TypeAnimation
@@ -24,7 +23,7 @@ export const HeroSection = () => {
                 sequence={[
                   "Electrical Engineer",
                   1500,
-                  "Full - Stack Developer",
+                  "Full - Stack Web Development",
                   1000,
                 ]}
                 wrapper="span"
@@ -45,7 +44,6 @@ export const HeroSection = () => {
             </button>
           </div>
 
-          {/* Right Content */}
           <div
             data-aos="zoom-in"
             data-aos-delay="150"
