@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import React, { useRef, useState } from "react";
 import ProjectCard from "../ProjectCard";
 import ProjectTag from "../ProjectTag";
 
@@ -64,7 +64,7 @@ const ProjectsSection: React.FC = () => {
         data-aos="zoom-out"
         data-aos-delay="100"
       >
-        My Portofolio
+        My Porojects
       </h2>
       <div
         className="flex justify-center gap-4 mb-8"
