@@ -26,7 +26,7 @@ const projectsData: Project[] = [
       "Next.js - Shadcn UI - Prisma ORM - Tailwind CSS - Express.js - PostgreSQL - Redis.",
     image: "/assets/Property.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/RachdianZulkarnain",
+    gitUrl: "https://github.com/RachdianZulkarnain/final-project-web",
     previewUrl: "https://homigo-property.vercel.app",
   },
   {
@@ -38,7 +38,7 @@ const projectsData: Project[] = [
       "Next.js - Shadcn UI - Tailwind CSS - Express.js - Prisma ORM - PostgresSQL - Tanstack Query - Redis.",
     image: "/assets/Event.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/RachdianZulkarnain",
+    gitUrl: "https://github.com/RachdianZulkarnain/pradian-app-web",
     previewUrl: "https://microlab-studio.vercel.app/",
   },
   {
