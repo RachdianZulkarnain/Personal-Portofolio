@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
         ))}
       </div>
 
-      <p className="font-semibold">© 2025 Rachdian. All rights reserved.</p>
+      <p className="font-semibold">© 2025 Rachdian Muhammad Adha. All rights reserved.</p>
     </section>
   );
 };

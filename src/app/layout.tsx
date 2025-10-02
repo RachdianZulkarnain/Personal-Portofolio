@@ -4,8 +4,8 @@ import "./globals.css";
 
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: "400", // Or an array like ['400', '700'] for multiple weights
-  display: "swap", // Recommended for better performance
+  weight: "400",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -21,10 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} antialiased `}>
-        {children}
-      </body>
+      <body className={`${roboto.className} antialiased `}>{children}</body>
     </html>
   );
 }
-// antialiased leading-6 h-[5000px]

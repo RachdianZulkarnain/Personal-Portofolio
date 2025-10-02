@@ -1,9 +1,8 @@
 "use client";
 
+import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
-import { useScroll, useTransform, motion } from "framer-motion";
 
-// Define the type for each timeline item
 interface TimelineItem {
   date: string;
   title: string;
@@ -11,7 +10,6 @@ interface TimelineItem {
   contents: string[];
 }
 
-// Define the type for the props of Timeline
 interface TimelineProps {
   data: TimelineItem[];
 }
@@ -37,7 +35,7 @@ export const Timeline: React.FC<TimelineProps> = ({ data }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="c-space section-spacing" ref={containerRef} >
+    <div className="c-space section-spacing" ref={containerRef}>
       <div ref={ref} className="relative pb-20">
         {data.map((item, index) => (
           <div

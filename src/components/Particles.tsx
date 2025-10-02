@@ -1,5 +1,5 @@
-import { twMerge } from "tailwind-merge";
 import React, { useEffect, useRef, useState } from "react";
+import { twMerge } from "tailwind-merge";
 
 interface ParticleProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;

@@ -9,6 +9,7 @@ interface Project {
   id: number;
   title: string;
   description: string;
+  technologies: string;
   image: string;
   tag: string[];
   gitUrl: string;
@@ -18,20 +19,37 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "Website Personal - Portofolio",
-    description: "Nextjs - Typescript - Tailwind CSS - React",
-    image: "/assets/Mockup1.webp",
+    title: "Homigo - Property Renting",
+    description:
+      "Homigo is a property rental platform that simplifies finding and booking apartments, hotels, and villas. It offers secure payment integration and an intuitive interface for a seamless user experience.",
+    technologies:
+      "Next.js - Shadcn UI - Prisma ORM - Tailwind CSS - Express.js - PostgreSQL - Redis.",
+    image: "/assets/Property.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/RachdianZulkarnain/Personal-Portofolio",
-    previewUrl: "https://rachdian.vercel.app/",
+    gitUrl: "https://github.com/RachdianZulkarnain",
+    previewUrl: "https://homigo-property.vercel.app",
   },
   {
     id: 2,
-    title: "Website Company - Profile",
-    description: "Typescript - React - Nextjs - Tailwind CSS  ",
-    image: "/assets/mouckup4.png",
+    title: "Pradian - Event Management",
+    description:
+      "Pradian is a platform for event ticketing where users can register as attendees or organizers. It enables users to purchase tickets with secure payment integration and provides tools for organizers to manage their events efficiently.",
+    technologies:
+      "Next.js - Shadcn UI - Tailwind CSS - Express.js - Prisma ORM - PostgresSQL - Tanstack Query - Redis.",
+    image: "/assets/Event.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/RachdianZulkarnain/Company-Profile",
+    gitUrl: "https://github.com/RachdianZulkarnain",
+    previewUrl: "https://microlab-studio.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Microlab Studio - Company Profile",
+    description:
+      "Microlab Studio is a 3D printing service that transforms digital designs into real products with precision and speed. It offers a wide range of materials, professional prototyping, and custom manufacturing solutions to support innovation across industries.",
+    technologies: "Next.js - Shadcn UI - Tailwind CSS.",
+    image: "/assets/3d.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/RachdianZulkarnain",
     previewUrl: "https://microlab-studio.vercel.app/",
   },
 ];
@@ -59,19 +77,15 @@ const ProjectsSection: React.FC = () => {
       id="portofolio"
       className="max-w-7xl mx-auto px-4 md:px-8 py-16 text-white overflow-hidden"
     >
-      <h2
-        className="animate-pulse text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600 font-bold mb-12"
-        data-aos="zoom-out"
-        data-aos-delay="100"
-      >
-        My Porojects
+      <h2 className=" text-left text-3xl text-white mb-12">
+        FEATURED PROJECTS
       </h2>
       <div
         className="flex justify-center gap-4 mb-8"
-        data-aos="zoom-in"
+        data-aos="zoom-out"
         data-aos-delay="100"
       >
-        {["All", "Web"].map((category) => (
+        {["All", "Web", "Mobile"].map((category) => (
           <ProjectTag
             key={category}
             onClick={() => handleTagChange(category)}
@@ -97,6 +111,7 @@ const ProjectsSection: React.FC = () => {
             <ProjectCard
               title={project.title}
               description={project.description}
+              technologies={project.technologies}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}

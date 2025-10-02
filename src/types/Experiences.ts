@@ -1,17 +1,5 @@
 export const experiences = [
   {
-    title: "Product Engineer",
-    job: "PT. Epson Indonesia",
-    date: "2019 - 2021",
-    contents: [
-      "• Designing and implementing production processes for new products in accordance with Epson's quality standards.",
-      "• Optimizing product designs for manufacturing efficiency, cost reduction, and performance improvement.",
-      "• Collaborating with cross-functional teams, including R&D and QC, to ensure products meet technical specifications and customer requirements.",
-      "• Analyzing and resolving technical issues arising during the production cycle.",
-      "• Initiating and managing innovative projects to enhance production process efficiency.",
-    ],
-  },
-  {
     title: "PNO - Staff IT",
     job: "Goverment Institutions",
     date: "2022 - 2024",

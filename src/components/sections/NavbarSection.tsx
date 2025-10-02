@@ -38,8 +38,7 @@ const Navbar = () => {
           <ul className="flex flex-col md:flex-row md:space-x-8 p-4 md:p-0 mt-0">
             {[
               { href: "/", label: "Home" },
-              { href: "#about", label: "About" },
-              { href: "#portofolio", label: "My Projects" },
+              { href: "#portofolio", label: "Projects" },
               { href: "#experience", label: "Experience" },
               { href: "#contact", label: "Contact" },
             ].map((item, idx) => (

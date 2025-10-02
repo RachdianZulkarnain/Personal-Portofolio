@@ -21,9 +21,9 @@ export const HeroSection = () => {
               <TypeAnimation
                 className="mt-4 text-3xl sm:text-xl lg:text-5xl text-white"
                 sequence={[
-                  "Electrical Engineer",
+                  "Electrical Engineering",
                   1500,
-                  "Full - Stack Web Development",
+                  "Full - Stack Web Dev",
                   1000,
                 ]}
                 wrapper="span"
@@ -35,13 +35,15 @@ export const HeroSection = () => {
               <AvatarImage src="/assets/portofolio.png" alt="Rachdian" />
               <AvatarFallback>RZ</AvatarFallback>
             </Avatar>
-            <p className="text-gray-300 mt-6 text-sm sm:text-base lg:text-lg leading-relaxed max-w-md">
-              I am passionate about blending technology and creativity to create
-              impactful solutions. Let’s work together to bring ideas to life!
+            <p className="text-gray-300 mt-6 text-sm sm:text-base lg:text-lg leading-relaxed max-w-md text-justify">
+              I am an Electrical Engineering graduate who is currently exploring
+              Full Stack Web Development to broaden my expertise in the field of
+              technology. My background in electrical engineering has provided
+              me with a strong foundation in technology, problem-solving skills,
+              and analytical thinking. Transitioning into the world of web
+              development is a strategic step to become a more versatile and
+              adaptive technology professional.
             </p>
-            <button className="mt-6 px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
-              Download CV
-            </button>
           </div>
 
           <div

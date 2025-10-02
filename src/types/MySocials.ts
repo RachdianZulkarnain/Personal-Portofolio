@@ -6,7 +6,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/rachdian-muhammad-adha-zulkarnain-4280a6174/",
+    href: "https://www.linkedin.com/in/rachdian-muhammad-adha-4280a6174/",
     icon: "/assets/socials/Linkin.webp",
   },
   {
